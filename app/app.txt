@@ -1,0 +1,7 @@
+app.c unifica los tres tasks:
+
+Se crea un tipo task_cfg_t, que contiene una función de inicialización, una de actualizacion y parametros opcionales.
+Luego se crea un array donde se tienen los tres task, el primero con las funciones del sensor, el segundo con las del sistema y el tercero con las del actuador.
+
+
+Se crea también el tipo task_dta_t que contiene un valor WCET (Worst-Case-Execution-Time) que se actualiza con cada actualización de los task. 
